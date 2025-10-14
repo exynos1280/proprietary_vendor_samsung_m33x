@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_tianma.bin \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_tianma_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_tianma_mp.bin \
     vendor/samsung/m33x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/m33x/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
     vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_common.hcf \
     vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan.hcf \
@@ -206,4 +207,8 @@ PRODUCT_PACKAGES += \
     libskeymint10device \
     libskeymint_cli \
     libswlme \
-    android.hardware.security.keymint-service.samsung
+    nfc_nci_nxpsn \
+    vendor.samsung.hardware.nfc@2.0 \
+    nxp.android.hardware.nfc@1.2-service.xml \
+    android.hardware.security.keymint-service.samsung \
+    nxp.android.hardware.nfc@1.2-service
