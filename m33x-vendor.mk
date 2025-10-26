@@ -204,11 +204,8 @@ PRODUCT_PACKAGES += \
     libexynoscamera_vpl_plugin \
     liblmecpu \
     libsec2lsi_conversion \
-    libskeymint10device \
-    libskeymint_cli \
     libswlme \
     nfc_nci_nxpsn \
     vendor.samsung.hardware.nfc@2.0 \
     nxp.android.hardware.nfc@1.2-service.xml \
-    android.hardware.security.keymint-service.samsung \
     nxp.android.hardware.nfc@1.2-service
